@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="gamePane" fx:id="gamePane" prefHeight="875.0" prefWidth="575.0" xmlns="http://javafx.com/javafx/9" xmlns:fx="http://javafx.com/fxml/1" fx:controller="CubEControllers.GameSceneController">
+   <children>
+      <Rectangle id="brick1" fx:id="brick1" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="30.0" layoutX="20.0" layoutY="32.0" stroke="BLACK" strokeType="INSIDE" width="80.0" />
+      <Rectangle id="brick1" fx:id="brick2" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="30.0" layoutX="110.0" layoutY="32.0" stroke="BLACK" strokeType="INSIDE" width="80.0" />
+      <Rectangle id="brick1" fx:id="brick3" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="30.0" layoutX="200.0" layoutY="32.0" stroke="BLACK" strokeType="INSIDE" width="80.0" />
+      <Rectangle id="brick1" fx:id="brick4" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="30.0" layoutX="290.0" layoutY="32.0" stroke="BLACK" strokeType="INSIDE" width="80.0" />
+      <Rectangle id="brick1" fx:id="brick5" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="30.0" layoutX="380.0" layoutY="32.0" stroke="BLACK" strokeType="INSIDE" width="80.0" />
+      <Rectangle id="brick1" fx:id="brick6" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="30.0" layoutX="470.0" layoutY="32.0" stroke="BLACK" strokeType="INSIDE" width="80.0" />
+      <Rectangle id="brick1" fx:id="brick7" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="30.0" layoutX="20.0" layoutY="72.0" stroke="BLACK" strokeType="INSIDE" width="80.0" />
+      <Rectangle id="brick1" fx:id="brick8" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="30.0" layoutX="110.0" layoutY="72.0" stroke="BLACK" strokeType="INSIDE" width="80.0" />
+      <Rectangle id="brick1" fx:id="brick9" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="30.0" layoutX="200.0" layoutY="72.0" stroke="BLACK" strokeType="INSIDE" width="80.0" />
+      <Rectangle id="brick1" fx:id="brick10" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="30.0" layoutX="290.0" layoutY="72.0" stroke="BLACK" strokeType="INSIDE" width="80.0" />
+      <Rectangle id="brick1" fx:id="brick11" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="30.0" layoutX="380.0" layoutY="72.0" stroke="BLACK" strokeType="INSIDE" width="80.0" />
+      <Rectangle id="brick1" fx:id="brick12" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="30.0" layoutX="470.0" layoutY="72.0" stroke="BLACK" strokeType="INSIDE" width="80.0" />
+      <Rectangle id="brick2" fx:id="brick13" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="30.0" layoutX="20.0" layoutY="111.0" stroke="BLACK" strokeType="INSIDE" width="80.0" />
+      <Rectangle id="brick2" fx:id="brick14" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="30.0" layoutX="110.0" layoutY="111.0" stroke="BLACK" strokeType="INSIDE" width="80.0" />
+      <Rectangle id="brick2" fx:id="brick15" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="30.0" layoutX="200.0" layoutY="111.0" stroke="BLACK" strokeType="INSIDE" width="80.0" />
+      <Rectangle id="brick2" fx:id="brick16" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="30.0" layoutX="290.0" layoutY="111.0" stroke="BLACK" strokeType="INSIDE" width="80.0" />
+      <Rectangle id="brick2" fx:id="brick17" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="30.0" layoutX="380.0" layoutY="111.0" stroke="BLACK" strokeType="INSIDE" width="80.0" />
+      <Rectangle id="brick2" fx:id="brick18" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="30.0" layoutX="470.0" layoutY="111.0" stroke="BLACK" strokeType="INSIDE" width="80.0" />
+      <Rectangle id="brick2" fx:id="brick19" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="30.0" layoutX="20.0" layoutY="151.0" stroke="BLACK" strokeType="INSIDE" width="80.0" />
+      <Rectangle id="brick2" fx:id="brick20" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="30.0" layoutX="110.0" layoutY="151.0" stroke="BLACK" strokeType="INSIDE" width="80.0" />
+      <Rectangle id="brick2" fx:id="brick21" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="30.0" layoutX="200.0" layoutY="151.0" stroke="BLACK" strokeType="INSIDE" width="80.0" />
+      <Rectangle id="brick2" fx:id="brick22" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="30.0" layoutX="290.0" layoutY="151.0" stroke="BLACK" strokeType="INSIDE" width="80.0" />
+      <Rectangle id="brick2" fx:id="brick23" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="30.0" layoutX="380.0" layoutY="151.0" stroke="BLACK" strokeType="INSIDE" width="80.0" />
+      <Rectangle id="brick2" fx:id="brick24" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="30.0" layoutX="470.0" layoutY="151.0" stroke="BLACK" strokeType="INSIDE" width="80.0" />
+      <Rectangle id="brick3" fx:id="brick25" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="30.0" layoutX="20.0" layoutY="190.0" stroke="BLACK" strokeType="INSIDE" width="80.0" />
+      <Rectangle id="brick3" fx:id="brick26" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="30.0" layoutX="110.0" layoutY="190.0" stroke="BLACK" strokeType="INSIDE" width="80.0" />
+      <Rectangle id="brick3" fx:id="brick27" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="30.0" layoutX="200.0" layoutY="190.0" stroke="BLACK" strokeType="INSIDE" width="80.0" />
+      <Rectangle id="brick3" fx:id="brick28" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="30.0" layoutX="290.0" layoutY="190.0" stroke="BLACK" strokeType="INSIDE" width="80.0" />
+      <Rectangle id="brick3" fx:id="brick29" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="30.0" layoutX="380.0" layoutY="190.0" stroke="BLACK" strokeType="INSIDE" width="80.0" />
+      <Rectangle id="brick3" fx:id="brick30" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="30.0" layoutX="470.0" layoutY="190.0" stroke="BLACK" strokeType="INSIDE" width="80.0" />
+      <Rectangle id="brick3" fx:id="brick31" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="30.0" layoutX="20.0" layoutY="230.0" stroke="BLACK" strokeType="INSIDE" width="80.0" />
+      <Rectangle id="brick3" fx:id="brick32" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="30.0" layoutX="110.0" layoutY="230.0" stroke="BLACK" strokeType="INSIDE" width="80.0" />
+      <Rectangle id="brick3" fx:id="brick33" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="30.0" layoutX="200.0" layoutY="230.0" stroke="BLACK" strokeType="INSIDE" width="80.0" />
+      <Rectangle id="brick3" fx:id="brick34" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="30.0" layoutX="290.0" layoutY="230.0" stroke="BLACK" strokeType="INSIDE" width="80.0" />
+      <Rectangle id="brick3" fx:id="brick35" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="30.0" layoutX="380.0" layoutY="230.0" stroke="BLACK" strokeType="INSIDE" width="80.0" />
+      <Rectangle id="brick3" fx:id="brick36" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="30.0" layoutX="470.0" layoutY="230.0" stroke="BLACK" strokeType="INSIDE" width="80.0" />
+      <Rectangle id="bat" fx:id="bat" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="20.0" layoutX="210.0" layoutY="785.0" stroke="BLACK" strokeType="INSIDE" width="144.0" />
+      <Circle id="ball" fx:id="ball" fill="DODGERBLUE" layoutX="313.0" layoutY="775.0" radius="10.0" stroke="BLACK" strokeType="INSIDE" />
+      <Label id="livesLabel" fx:id="livesLabel" layoutX="80.0" layoutY="280.0" opacity="0.5" text="3">
+         <font>
+            <Font name="System Bold Italic" size="24.0" />
+         </font></Label>
+      <Label id="scoreLabel" fx:id="scoreLabel" layoutX="85.0" layoutY="310.0" opacity="0.5" text="0">
+         <font>
+            <Font name="System Bold Italic" size="24.0" />
+         </font>
+      </Label>
+      <Text layoutX="22.0" layoutY="300.0" opacity="0.5" strokeType="OUTSIDE" strokeWidth="0.0" text="Lives:" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold Italic" size="17.0" />
+         </font>
+      </Text>
+      <Text layoutX="22.0" layoutY="330.0" opacity="0.5" strokeType="OUTSIDE" strokeWidth="0.0" text="Score:" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold Italic" size="17.0" />
+         </font>
+      </Text>
+      <Pane id="pausePane" fx:id="pausePane" layoutX="92.0" layoutY="272.0" prefHeight="301.0" prefWidth="390.0">
+         <children>
+            <Text id="pauseText" fx:id="pauseText" layoutX="91.0" layoutY="82.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PAUSED" />
+            <VBox alignment="CENTER" layoutX="117.0" layoutY="128.0" spacing="30.0">
+               <children>
+                  <Button id="resumeButton" fx:id="resumeButton" mnemonicParsing="false" onAction="#resumeGame" text="Resume" />
+                  <Button id="endGameButton" fx:id="endGameButton" mnemonicParsing="false" onAction="#switchToEndScene" text="End Game" />
+               </children>
+            </VBox>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

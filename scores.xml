@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Players>
+<Player ID="1">
+<Name>lol</Name>
+<Score>0</Score>
+</Player>
+<Player ID="1">
+<Name>Gyula</Name>
+<Score>9000</Score>
+</Player>
+<Player ID="2">
+<Name>Peti</Name>
+<Score>9000</Score>
+</Player>
+<Player ID="3">
+<Name>Sanyi</Name>
+<Score>9000</Score>
+</Player>
+</Players>
