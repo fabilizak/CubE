@@ -243,7 +243,7 @@
                             <archive>
                                 <manifest>
                                     <addClasspath>true</addClasspath>
-                                    <exec.mainClass>${exec.mainClass}</exec.mainClass>
+                                    <mainClass>${exec.mainClass}</mainClass>
                                 </manifest>
                             </archive>
                             <descriptorRefs>
