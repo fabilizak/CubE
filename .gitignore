@@ -1,5 +1,7 @@
 target/
 .idea/
+nb-actions.xml
+nbconfiguration.xml
 
 # Compiled class file
 *.class
