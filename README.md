@@ -1,4 +1,4 @@
-# 2248
+# CubE
 My take on the famous Breakout game released by Atari in 1976.
 
 ## How to play

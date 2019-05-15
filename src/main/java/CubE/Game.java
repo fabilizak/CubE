@@ -8,9 +8,9 @@ import org.slf4j.LoggerFactory;
  */
 public class Game {
     
+    //CHECKSTYLE:OFF
     private static final Logger logger = LoggerFactory.getLogger(Game.class);
     
-    //CHECKSTYLE:OFF
     private int lives = 3;
     private int score = 0;
     public int bDx = 1;

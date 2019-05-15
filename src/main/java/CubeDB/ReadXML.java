@@ -29,8 +29,10 @@ import org.xml.sax.SAXException;
  */
 public class ReadXML {
     
+    //CHECKSTYLE:OFF
     private static final Logger logger = LoggerFactory.getLogger(ReadXML.class);
-
+    //CHECKSTYLE:ON
+    
         /**
          * Gets the data from the XML file.
          * 

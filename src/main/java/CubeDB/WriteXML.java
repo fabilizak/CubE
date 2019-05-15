@@ -28,8 +28,9 @@ import org.xml.sax.SAXException;
  * Class that writes the player scores in an XML file.
  */
 public class WriteXML {
-
+    //CHECKSTYLE:OFF
     private static final org.slf4j.Logger logger = LoggerFactory.getLogger(WriteXML.class);
+    //CHECKSTYLE:ON
     
     /**
      * Merges an XML file with the XML file that contains the name and score of the previous players.
